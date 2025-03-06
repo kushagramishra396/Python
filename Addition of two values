@@ -1,0 +1,32 @@
+#Addition of two values.
+
+value1=int(input("Please enter the first value:"))
+value2=int(input("Please enter the second value:"))
+sum=value1+value2
+print("Addition:",sum)
+
+
+
+'''1.value1=int(input("Please enter the first value:")):
+
+This line prompts the user to input a value.
+The input() function takes input from the user as a string.
+The int() function then converts the string input into an integer.
+The result is stored in the variable value1.
+2.value2=int(input("Please enter the second value:")):
+
+Similar to the first line, this prompts the user to enter another value, which is converted into an integer and stored in the variable value2.
+3.sum=value1+value2:
+
+This line adds the two integer values (value1 and value2) together and stores the result in the variable sum.
+4.print("Addition:", sum):
+
+This line prints the result of the addition.
+The print() function displays the message "Addition:" followed by the value of the sum variable (which is the result of adding value1 and value2).
+Example
+If the user enters:
+
+value1 = 5
+value2 = 7
+The output would be:
+Addition: 12'''
